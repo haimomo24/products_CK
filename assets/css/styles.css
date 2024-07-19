@@ -604,7 +604,7 @@ cart-login form .col a{
         justify-content: center;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .new-hot .cart-new {
         height:300px;
     }
