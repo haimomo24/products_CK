@@ -22,7 +22,7 @@ const getApi = async (url) => {
 const showProduct = (data) => {
   let HTML = "";
   data.forEach((value) => {
-    HTML += `<div class="col-12 col-sm-4 col-md-4 item">
+    HTML += `<div class="col-12 col-sm-6 col-md-4 item">
                             <div class="cart-category-products">
                                 <a href="./detail.html?id=${value.id}">
                                     <img src="${value.image}" alt="">

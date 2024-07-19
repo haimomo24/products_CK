@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Giỏ hàng </title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
     <!-- fontawesome -->
@@ -53,7 +53,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#sale">Sale Off</a>
@@ -81,190 +81,190 @@
     </div>
   </nav>
 
-  <!-- slider -->
-  <div class="slider">
-        
+  <!-- cart -->
+   <div class="cart-el">
     <div class="container">
-       
+        <section class="h-100">
+            <div class="container h-100 py-5">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-10">
           
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="./assets/images/1000z-launch-website-banner_1695177885.webp" alt="">
+                  <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="fw-normal mb-0">Giỏ hàng của bạn </h3>
+                    <div>
+                      <p class="mb-0"><span class="text-muted">xếp theo:</span> <a href="#!" class="text-body">giá <i
+                            class="fas fa-angle-down mt-1"></i></a></p>
                     </div>
-                    <div class="item">
-                        <img src="./assets/images/65z3ltd-launch-website_1695177820.webp" alt="">
+                  </div>
+          
+                  <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                      <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                            <img
+                            src="https://cdn.shopvnb.com/img/300x300/uploads/gallery/vot-cau-long-yonex-astrox-02-clear-1_1712887373.webp"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <p class="lead fw-normal mb-2">Yonex Astrox 02</p>
+                          
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+          
+                          <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+          
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h5 class="mb-0">499.000 VND</h5>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                      </div>
                     </div>
-                    <div class="item">
-                        <img src="./assets/images/astrox88-sd-key-visual-2880x1120-_1718650445.webp" alt="">
+                  </div>
+          
+                  <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                      <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="https://cdn.shopvnb.com/img/300x300/uploads/gallery/giay-cau-long-yonex-88-dial-3-wide-2024-trang-chinh-hang-2_1716341055.webp"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <p class="lead fw-normal mb-2">Yonex SHB 88 Dial 3</p>
+                          <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+          
+                          <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+          
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h5 class="mb-0">$1.499.000 VND</h5>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                      </div>
                     </div>
-                    <div class="item">
-                        <img src="./assets/images/ynx-eclp-banner_1695178004.webp" alt="">
+                  </div>
+          
+                  <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                      <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="https://cdn.shopvnb.com/uploads/gallery/ao-cau-long-yonex-a389-nam-den_1721267360.webp"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <p class="lead fw-normal mb-2">Yonex A389 Nam</p>
+                          <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+          
+                          <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+          
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h5 class="mb-0">$49.900 VND</h5>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                      </div>
                     </div>
-                    
-              
-            
-            
-
-            </div>
-        </div>
-        
-    </div>
-</div>
-
-    <!-- section_services -->
-  <div class="section_services">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="cart-services">
-                    <div class="icon-services"><i class="fa-solid fa-truck-fast"></i></div>
-                    <div class="title-services">
-                        <p> Vận chuyển toàn quốc </p>
+                  </div>
+          
+                  <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                      <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="https://cdn.shopvnb.com/uploads/gallery/balo-cau-long-yonex-bag2312t01-gray-cherry-tomato-chinh-hang_1721075927.webp"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <p class="lead fw-normal mb-2">Balo Cầu Lông Yonex</p>
+                          <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+          
+                          <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+          
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h5 class="mb-0">$999.000 VND</h5>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+          
+                  <div class="card mb-4">
+                    <div class="card-body p-4 d-flex flex-row">
+                      <div data-mdb-input-init class="form-outline flex-fill">
+                        <input type="text" id="form1" class="form-control form-control-lg" />
+                        <label class="form-label" for="form1">Mã giảm giá </label>
+                      </div>
+                      <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-warning btn-lg ms-3">Áp dụng</button>
+                    </div>
+                  </div>
+          
+                  <div class="card">
+                    <div class="card-body">
+                      <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-block btn-lg">Mua</button>
+                    </div>
+                  </div>
+          
                 </div>
+              </div>
             </div>
-
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="cart-services">
-                    <div class="icon-services"><i class="fa-solid fa-thumbs-up"></i></i></div>
-                    <div class="title-services">
-                        <p> Bảo đảm chất lượng </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="cart-services">
-                    <div class="icon-services"><i class="fa-solid fa-credit-card"></i></div>
-                    <div class="title-services">
-                        <p> Thanh toán tiện lợi  </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="cart-services">
-                    <div class="icon-services"><i class="fa-solid fa-award"></i></div>
-                    <div class="title-services">
-                        <p> Bảo hành 12 tháng  </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>
-  <!-- sale-off -->
-   <div class="sale" id="sale">
-    <div class="container">
-        <h2>Sale Off</h2>
-        <div class="row">
-            <div class="col-12 col-sm-4 col-md-4">
-                <div class="cart-sale">
-                    <img class="img-sale" src="./assets/images/sale1.webp" alt="">
-                </div>
-               
-            </div>
-            <div class="col-12 col-sm-4 col-md-4">
-                <div class="cart-sale">
-                    <img class="img-sale" src="./assets/images/sale2.webp" alt="">
-                </div>
-               
-            </div>
-            <div class="col-12 col-sm-4 col-md-4">
-                <div class="cart-sale">
-                    <img class="img-sale" src="./assets/images/sale3.webp" alt="">
-                </div>
-                
-            </div>
-        </div>
+          </section>
     </div>
    </div>
 
-   <!-- products -->
-    <div class="products">
-        <h2>Sản Phẩm Của Chúng Tôi</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                            <img src="./assets/images/products1.webp" alt="">
-                        </a>
-                        <div class="title-products">Cầu Lông</div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                            <img src="./assets/images/products2.webp" alt="">
-                        </a>
-                        <div class="title-products">Giày cầu lông</div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                            <img src="./assets/images/products3.webp" alt="">
-                        </a>
-                        <div class="title-products">Áo cầu lông</div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                          <a href="">
-                            <img src="./assets/images/products4.webp" alt="">
-                        </a>
-                        <div class="title-products">Váy Cầu Lông</div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                          <a href="">
-                            <img src="./assets/images/products5.webp" alt="">
-                        </a>
-                        <div class="title-products">Quần cầu lông</div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                          <a href="">
-                            <img src="./assets/images/products6.webp" alt="">
-                        </a>
-                        <div class="title-products">Túi xách</div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                          <a href="">
-                            <img src="./assets/images/products7.webp" alt="">
-                        </a>
-                        <div class="title-products">Balo cầu lông</div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-3 col-md-3">
-                    <div class="cart-products">
-                        <a href="./products.html">
-                          <a href="">
-                            <img src="./assets/images/products8.webp" alt="">
-                        </a>
-                        <div class="title-products">Phụ kiện</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-    </div>
+ 
       <!-- contact -->
    <div class="contact">
     <h2>Nhãn Hàng Của Chúng Tôi</h2>
@@ -300,44 +300,7 @@
         </div>
     </div>
    </div>
-    <!-- new -->
-     <div class="new-hot">
-       <h2>Tin tức mới</h2>
-       <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-3 col-sm-3">
-                <div class="cart-new">
-                    <img src="./assets/images/cart-new1.jpg" alt="">
-                    <p>Review sân Pickleball 3T chất lượng tại Quận 8, TP.HCM</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-3 col-sm-3">
-                <div class="cart-new">
-                    <img src="./assets/images/cart-new2.jpg" alt="">
-                    <p>Khám phá sân Pickleball Hải Đăng chất lượng tại Tây Ninh </p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-3 col-sm-3">
-                <div class="cart-new">
-                    <img src="./assets/images/cart-new3.webp" alt="">
-                    <p>Các bài tập cần khởi động trước khi đánh Pickleball</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-3 col-sm-3">
-                <div class="cart-new">
-                    <img src="./assets/images/cart-new4.jpg" alt="">
-                    <p>Review sân Pickleball Gia Lâm,  đẹp nhất tại Hà Nội</p>
-                </div>
-            </div>
-                
-            </div>
-
-            
-        </div>
-    </div>
+   
     <div class="messenger-box">
       <div class="messenger-header">
         
