@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
                           </button>
                         </div>
                   <button type="button" class="btn btn-primary btn-lg">
-                    Mua
+                    <a href="cart.html" style="text-decoration: none; color:#ffff;">Mua</a>
                   </button>
                 </div>
               </div>
