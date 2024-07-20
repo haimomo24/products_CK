@@ -471,7 +471,14 @@ cart-login form .col a{
     color: #E95221;
     
   }
-
+  /* new-elm */
+.new-elm img {
+    width:90%;
+}
+.new-hot a {
+    text-decoration: none;
+    color:#3e4246
+}
 /* detail */
 .detail{
     margin-top:50px;
