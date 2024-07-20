@@ -426,7 +426,7 @@ cart-login form .col a{
   }
   .avatar{
     width:13%;
-   
+    margin-left: 5px;
     border-radius: 50%;
     
   }
